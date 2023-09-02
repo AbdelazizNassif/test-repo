@@ -4,14 +4,14 @@
 version: '3'
 services:
   selenium-hub:
-    image: selenium/hub:4.1.1-20211217
+    image: selenium/hub:latest
     ports:
       - "4442:4442"
       - "4443:4443"
       - "4445:4444"
 
   chrome:
-    image: selenium/node-chrome:4.1.1-20211217
+    image: selenium/node-chrome:latest
     shm_size: 2gb
     depends_on:
       - selenium-hub
