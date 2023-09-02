@@ -1,0 +1,6 @@
+screenshots/
+target/
+allure-results/
+.idea/
+.gitignore.bak
+README.md.bak
