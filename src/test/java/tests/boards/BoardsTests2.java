@@ -1,28 +1,32 @@
 package tests.boards;
 
 
-import org.junit.jupiter.api.*;
-
+import org.junit.jupiter.api.Test;
 import tests.TestBase;
 
-public class BoardsTests extends TestBase {
+public class BoardsTests2 extends TestBase {
 
 
+
     @Test
-    public void m1() {
+    public void f2() {
         System.out.println("dummy test");
+
     }
     @Test
-    public void m2() {
+    public void f1() {
         System.out.println("dummy test");
+
     }
     @Test
-    public void m14() {
+    public void f3() {
         System.out.println("dummy test");
+
     }
     @Test
-    public void m13() {
+    public void f4() {
         System.out.println("dummy test");
+
     }
 
 

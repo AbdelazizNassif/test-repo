@@ -5,7 +5,7 @@ import driverSettigns.DriverFactory;
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.WebDriver;
 
-@TestInstance(TestInstance.Lifecycle.PER_CLASS)
+//@TestInstance(TestInstance.Lifecycle.PER_CLASS)
 public class TestBase {
 
     protected volatile WebDriver driver = null;
